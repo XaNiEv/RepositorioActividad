@@ -1,14 +1,14 @@
 public class App {
 public static void main(String[] args) throws Exception {
-    //METODOS DE la CLASE STRING
+    //METODOS DE LAS CLASE STRING
     //length
     String pal= "ADSI";
-    System.out.println("La cantidad de caracteres es:" +pal.length())
+    System.out.println("La cantidad de LETRAS es:" +pal.length())
 ;
     //EJEMPLOS
     //Substring
     String pal1= "ADSI";
-    System.out.println("El caracter de la posicion 1 es:" +pal1.substring(1));
+    System.out.println("La primera letra:" +pal1.substring(1));
 
     //toLowerCase
     String pal2= "ADSI";
@@ -24,7 +24,7 @@ public static void main(String[] args) throws Exception {
 
     //replaceAll
     String pal6= "ADSI";
-    System.out.println("El texto a reemplazar es DS:" +pal6.replaceAll("DS", "zxc"));
+    System.out.println("Se reemplaza las letras DS:" +pal6.replaceAll("DS", "zxc"));
 
     //FIN DE LA PRESENTACION    
     }
