@@ -1,11 +1,11 @@
 public class App {
 public static void main(String[] args) throws Exception {
-    //METODOS DE CLASE STRING
+    //METODOS DE la CLASE STRING
     //length
     String pal= "ADSI";
     System.out.println("La cantidad de caracteres es:" +pal.length())
 ;
-
+    //EJEMPLOS
     //Substring
     String pal1= "ADSI";
     System.out.println("El caracter de la posicion 1 es:" +pal1.substring(1));
@@ -26,6 +26,7 @@ public static void main(String[] args) throws Exception {
     String pal6= "ADSI";
     System.out.println("El texto a reemplazar es DS:" +pal6.replaceAll("DS", "zxc"));
 
+    //FIN DE LA PRESENTACION    
     }
 }
 
